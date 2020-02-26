@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NavBar */
+nav {
+  height: 80px;
+  width: 100%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: 700;
+  padding: 12px;
+}
+
+#myMenu {
+  position: relative;
+  margin-left: 22%;
+  margin-top: -2.5%;
+}
+
+#myMenu2 {
+  position: relative;
+  float: right;
+  margin-top: -2.1%;
+  margin-right: 12%;
+}
+
+.logo {
+  margin-top: 2.5%;
+  margin-left: 12%;
+}
+
+.signBtn {
+  background: #2acfcf;
+  padding: 8px;
+  border-radius: 22px;
+}
+
+.signBtn:hover {
+  background: #85e0e0;
+}
+
+.signBtn a {
+  color: #ffffff;
+}
+
+/* page1 */
+.page1 {
+  height: 40vh;
+  max-width: 520px;
+  margin-left: 12%;
+  margin-top: 4%;
+}
+
+.page1 h1 {
+  font-size: 4.5vw;
+}
+
+.page1 p {
+  color: #bfbfbf;
+}
+
+.page1 img {
+  position: relative;
+  margin-top: -70%;
+  margin-left: 120%;
+}
+
+.page1 button {
+  background: #2acfcf;
+  padding: 10px;
+  margin-top: 6%;
+  width: 10vw;
+  border-radius: 22px;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.page1 button:hover {
+  background: #85e0e0;
+}
+
+.inputField {
+  position: relative;
+  margin-top: 12%;
+  height: 18vh;
+  width: 75%;
+  background: #35323e;
+  margin-left: 12%;
+  border-radius: 12px;
+}
+
+.inputField img {
+  border-radius: 15px;
+  height: 18vh;
+  width: 74.5vw;
+}
+
+.inputField input {
+  position: relative;
+  height: 2vh;
+  width: 73%;
+  top: -70%;
+  left: 5%;
+  border-radius: 7px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.inputField button {
+  position: relative;
+  background: #2acfcf;
+  padding: 11px;
+  width: 10vw;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  top: -70%;
+  left: 6%;
+}
+
+.inputField button:hover {
+  background: #85e0e0;
+}
+
+.page2 {
+  position: relative;
+  width: 100%;
+  background: #f3f6f7;
+  height: 120vh;
+  text-align: center;
+  margin-top: -4.5%;
+  z-index: -1;
+}
+
+.page2 h2 {
+  position: relative;
+  font-size: 32px;
+  top: 20%;
+}
+
+.page2 p {
+  position: relative;
+  color: #bfbfbf;
+  max-width: 500px;
+  margin: 1% auto;
+  top: 20%;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 78%;
+  margin: 10% auto;
+}
+
+.cards .card {
+  height: 27vh;
+  width: 20vw;
+  background: #ffffff;
+  margin: 10% auto;
+  text-align: left;
+  padding: 30px;
+}
+
+.cards .card .hr1 {
+  position: absolute;
+  border-top: 5px solid #2acfcf;
+  width: 1.7%;
+  right: 62.1%;
+  top: 58%;
+}
+
+.cards .card .hr2 {
+  position: absolute;
+  border-top: 5px solid #2acfcf;
+  width: 1.7%;
+  right: 36.1%;
+  top: 64%;
+}
+
+.cards img {
+  position: relative;
+  background: #3b3054;
+  padding: 15px;
+  border-radius: 40px;
+  margin-top: -30%;
+  margin-right: 65%;
+}
+
+.cards h3 {
+  margin-top: 7%;
+}
+
+.cards p {
+  margin-top: -6%;
+}
+
+.cards .card2 {
+  margin-top: 13%;
+}
+
+.cards .card3 {
+  margin-top: 17%;
+}
+
+.page3 {
+  position: relative;
+  background: #3b3054;
+  height: 32vh;
+}
+
+.page3 img {
+  width: 100%;
+  height: 32vh;
+  margin-top: -3.2%;
+}
+
+.page3 h1 {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  top: 45px;
+}
+
+.page3 button {
+  position: relative;
+  background: #2acfcf;
+  padding: 10px;
+  width: 9vw;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  margin-left: -50px;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 22px;
+  border: none;
+  font-weight: 700;
+}
+
+.page3 button:hover {
+  background: #85e0e0;
+}
+
+.footer {
+  background: #232127;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 40vh;
+}
+
+.footer .logo1 {
+  height: 4.5vh;
+  margin-top: 3.5%;
+  width: 9vw;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin-top: 3.5%;
+  font-weight: 700;
+}
+
+.footer ul li {
+  color: #bfbfbf;
+  padding: 8px 0px;
+  font-weight: 400;
+}
+
+.footer .socialMedia {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  width: 11vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .socialMedia img {
+  height: 3vh;
+}
+/*# sourceMappingURL=styles.css.map */
